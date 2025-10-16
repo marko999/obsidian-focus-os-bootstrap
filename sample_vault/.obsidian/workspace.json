@@ -11,10 +11,14 @@
             "id": "dashboard-leaf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 - Focuses/Todo Web App.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Todo Web App"
             }
           }
         ]
@@ -178,18 +182,33 @@
   },
   "active": "dashboard-leaf",
   "lastOpenFiles": [
-    "dashboard.md",
-    "04 - Daily Focus/2025-01-15 — Todo Web App.md",
-    "02 - Tasks/design-ui-layout.md",
-    "02 - Tasks/implement-backend-api.md",
-    "02 - Tasks/set-up-ci.md",
-    "02 - Tasks/stretch-break.md",
-    "01 - Focuses/Todo Web App.md",
     "01 - Focuses/Mobile Companion.md",
-    "03 - Canvases/main-focus-with-focus-tasks.canvas",
+    "01 - Focuses/Todo Web App.md",
+    "04 - Daily Focus/2025-10-16 — Focus One.md.md",
+    "04 - Daily Focus/2025-01-15 — Todo Web App.md",
+    "02 - Tasks/stretch-break.md",
+    "02 - Tasks/set-up-ci.md",
+    "02 - Tasks/implement-backend-api.md",
+    "02 - Tasks/design-ui-layout.md",
+    "02 - Tasks/test-task.md.md",
+    "01 - Focuses/Focus One.md",
+    "01 - Focuses/new focus.md.md",
+    "02 - Tasks/test.md.md",
+    "02 - Tasks/really-important.md.md",
+    "02 - Tasks/test-distraction.md.md",
     "03 - Canvases/main-focus-with-distractions.canvas",
+    "dashboard.md",
+    "04 - Daily Focus/2025-01-15.md",
+    "03 - Canvases/main-focus-with-focus-tasks.canvas",
+    "00",
+    "02 - Tasks/Distraction One.md",
+    "04 - Daily Focus/2025-10-16-Obsidian Setup.md",
+    "01 - Focuses/some focus.md.md",
     "00 - Templates/focus-day-template.md",
+    "00 - Templates/focus-template.md",
     "00 - Templates/task-template.md",
-    "00 - Templates/distraction-template.md"
+    "00 - Templates/distraction-template.md",
+    "02 - Tasks/Task One.md",
+    "02 - Tasks/Task Two.md"
   ]
 }
