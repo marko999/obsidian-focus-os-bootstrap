@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "main-split",
+    "type": "split",
+    "children": [
+      {
+        "id": "main-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dashboard-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "left-split",
+    "type": "split",
+    "children": [
+      {
+        "id": "left-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "files-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "search-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8cca333c28d01383",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "right-split",
+    "type": "split",
+    "children": [
+      {
+        "id": "right-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "backlinks-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dashboard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "outline-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dashboard.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "0032db9feb52ea94",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04 - Daily Focus/2025-01-15.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-01-15"
+            }
+          },
+          {
+            "id": "f845ae770351e56d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a11daf04306c52f9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "dashboard-leaf",
+  "lastOpenFiles": [
+    "dashboard.md",
+    "04 - Daily Focus/2025-01-15 — Todo Web App.md",
+    "02 - Tasks/design-ui-layout.md",
+    "02 - Tasks/implement-backend-api.md",
+    "02 - Tasks/set-up-ci.md",
+    "02 - Tasks/stretch-break.md",
+    "01 - Focuses/Todo Web App.md",
+    "01 - Focuses/Mobile Companion.md",
+    "03 - Canvases/main-focus-with-focus-tasks.canvas",
+    "03 - Canvases/main-focus-with-distractions.canvas",
+    "00 - Templates/focus-day-template.md",
+    "00 - Templates/task-template.md",
+    "00 - Templates/distraction-template.md"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"main-focus","type":"text","text":"[[Todo Web App]]","x":0,"y":0,"width":320,"height":120},
+		{"id":"distraction-1","type":"text","text":"[[stretch-break|Stretch Break]] (distraction)","x":360,"y":0,"width":340,"height":110}
+	],
+	"edges":[]
+}
