@@ -9,9 +9,6 @@ created: 2025-01-12
 ## 🎯 Description
 Future expansion: lightweight iOS/Android client that syncs with the web app.
 
-## 🔗 Related Canvases
-- [[03 - Canvases/main-focus-with-focus-tasks.canvas]]
-
 ## ✅ Active Tasks
 ```dataview
 TABLE file.link as Task, status, due

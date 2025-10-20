@@ -15,7 +15,6 @@ This note explains how the Focus OS vault is meant to run day to day. Start with
 - `00 - Templates/` — Templater starters for Focus notes, Tasks, Daily Focus logs, and the dashboard.
 - `01 - Focuses/` — one note per long-running initiative. Each focus auto-lists its active tasks via Dataview.
 - `02 - Tasks/` — atomic work items. “Real” tasks include a `focus:` field linking back to a Focus; distractions skip that field and flip `distraction: true`.
-- `03 - Canvases/` — optional spatial boards for planning. Template links live in the Focus note.
 - `04 - Daily Focus/` — daily logs centered on a single focus. They surface tasks tied to that focus plus any distractions you’ve captured.
 
 ### Required Frontmatter Fields

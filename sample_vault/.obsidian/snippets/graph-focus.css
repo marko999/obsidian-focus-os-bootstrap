@@ -1,0 +1,12 @@
+.graph-view .graph-view-node[data-path^="01 - Focuses/"] {
+  --graph-node-size: 14px;
+}
+
+.graph-view .graph-view-node[data-path^="02 - Tasks/"] {
+  --graph-node-size: 6px;
+}
+
+.graph-view .graph-view-node[data-path^="02 - Tasks/"][data-tags~="distraction"] {
+  --graph-node-size: 8px;
+  --graph-node-fill: #d64545;
+}

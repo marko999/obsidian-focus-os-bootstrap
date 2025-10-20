@@ -67,6 +67,7 @@ const lines = [
   'TABLE file.link AS Task, due',
   'FROM "02 - Tasks"',
   'WHERE regexreplace(string(default(focus, "")), "\\\\[|\\\\]", "") = regexreplace(string(default(this.focus, "")), "\\\\[|\\\\]", "")',
+  '  AND dateformat(date(due), "yyyy-MM-dd") = dateformat(date(this.date), "yyyy-MM-dd")',
   '  AND default(distraction, false) = false',
   '  AND status != "done"',
   'SORT due ASC',

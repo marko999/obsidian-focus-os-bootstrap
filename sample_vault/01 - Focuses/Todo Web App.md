@@ -9,10 +9,6 @@ created: 2025-01-10
 ## 🎯 Description
 Ship a polished personal task manager on the web, covering capture, scheduling, and review flows end to end.
 
-## 🔗 Related Canvases
-- [[03 - Canvases/main-focus-with-focus-tasks.canvas]]
-- [[03 - Canvases/main-focus-with-distractions.canvas]]
-
 ## ✅ Active Tasks
 ```dataview
 TABLE file.link as Task, status, due
